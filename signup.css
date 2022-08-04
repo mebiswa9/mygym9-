@@ -1,0 +1,69 @@
+
+.box5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box6 {
+    margin: 4vw;
+    padding: 2vw;
+    border: 2px solid #b7cfe5;
+}
+
+.formgroup {
+    margin: 0.5vw;
+    display: flex;
+    flex-direction: column;
+}
+.h2 {
+    margin: 2vw;
+    font-family: 'Play', sans-serif;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+    color: #ff0000;
+    text-align: center;
+}
+.link{
+    color: #fd4151;
+    font-size: 1.2vw;
+    margin: 0.1vw;
+}
+.form-check {
+    padding: 0.5vw;
+}
+
+.form-check-input {
+    margin: 0.5vw;
+    height: 1.25vw;
+    width: 1.25vw;
+}
+.formgroup label, .formgroup input{
+    padding: 0.3vw;
+}
+.formgroup label{
+ text-transform: uppercase;
+ font-size: 1.3vw;
+ font-weight: 500;
+ font-family: play;
+}
+
+.p {
+    text-align: center;
+}
+.btn2 {
+    padding: 0.25vw;
+    margin: 0.5vw;
+    background-color: #202020;
+    color: #fff;
+    box-shadow: 0vw 0.2vw 0.9vw #9b020e;
+}
+
+.btn2:focus,
+.btn2.focus,
+.btn2:hover,
+.btn2.hover {
+    background-color: #d40c69;
+    color: #fff;
+}

@@ -1,0 +1,117 @@
+.bgimg {
+    background-image: url(./images/b2.jpg);
+}
+.member {
+    background-color: orangered;
+    padding: 2vw;
+    margin: 1vw;
+}
+
+.title3 {
+    letter-spacing: 2vw;
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    color: #fff;
+}
+
+.d-flex {
+    display: flex;
+    padding: 1vw;
+    margin: 1vw;
+    justify-content: center;
+}
+
+.card {
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+    border: 2px solid #ff0606;
+    background-color: #ffffff;
+}
+
+.ul {
+    padding: 1vw;
+    list-style: square;
+    text-align: start;
+    text-transform: capitalize;
+    font-size: 1vw;
+    color: #010000;
+}
+
+.ul li {
+    margin: 0.2vw;
+    font-size: 1.2vw;
+}
+
+li::marker {
+    color: #ff0606;
+}
+
+.h3 {
+    text-transform: capitalize;
+    font-size: 1.7vw;
+    color: #ff0606;
+}
+
+.h4 {
+    font-size: 1.2vw;
+}
+
+.title4 {
+    font-size: 2.5vw;
+}
+
+.btn {
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 1.2;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+
+.btn1 {
+    padding: 0.8vw 0.5vw;
+    background-color: #9e0942;
+    color: #ffffff;
+    box-shadow: 0 0.1vw 0 0 #811019;
+}
+
+.btn1:focus,
+.btn1.focus,
+.btn1:hover,
+.btn1.hover {
+    color: #000;
+    background-color: #c5b7bc;
+    box-shadow: 0 0.3vw 0.2vw 0.1vw #811019;
+}
+.h1,.h2{
+    margin: 2vw;
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+}
+.h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.8vw;
+}
+.span {
+    text-decoration: underline;
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+.h2 {
+    text-transform: capitalize;
+    letter-spacing: 0.3vw;
+    text-align: center;
+}
+
+.h2 a {
+    color: #fff;
+    margin: 1vw;
+}

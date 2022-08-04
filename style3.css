@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital@1&family=Play&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    margin: 0;
+}
+
+nav {
+    font-family: 'Play', sans-serif;
+    background-color: rgb(235, 116, 116);
+
+}
+
+.nav-brand {
+    font-size: 2vw;
+}
+
+
+nav ul li {
+    padding: 1vw;
+
+}
+
+.nav-item {
+    font-size: 2vw;
+    text-decoration: none;
+    color: white;
+    padding: 1vw;
+}
+
+nav ul li:hover,
+nav ul li:focus {
+    color: rgb(255, 42, 4);
+    background-color: rgba(84, 7, 7, 0.724);
+}
+
+.dd-menu {
+    display: none;
+}
+
+nav ul li:hover .dd-menu {
+    display: block;
+    position: absolute;
+    background-color: #be4141;
+    z-index: 1;
+}
+
+nav ul li:hover .dd-menu ul {
+    display: block;
+}
+.dd-menu ul li {
+    list-style: none;
+    padding: 0.1vw 2vw;
+    margin: 0.1vw 0;
+    font-size: 1.2vw;
+}
+
+.dd-item {
+    font-family: 'Play', sans-serif;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.box2,
+.footer {
+    display: flex;
+    margin: 0.5vw;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    margin: 0.2vw;
+    justify-content: space-between;
+    list-style: none;
+}
+.box2 {
+    background-color: #010101;
+    color: #e7e4e1;
+}
+.box4 {
+    margin: 1vw 2vw;
+}
+.footer {
+    background-color: #ff0a0a;
+    color: #fff;
+    letter-spacing: 0.4vw;
+}
+
+.footer a {
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.title,.h6{
+    padding: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+.h6{
+    font-size: 1.5vw;
+}
+.h5{
+    padding: 0.5vw;
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif;
+    font-size: 1.8vw;
+    color: #c50b40;
+}
+.title
+{
+    letter-spacing: 2vw;
+    font-size: 2.5vw;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.title {
+    color: #8f2525;
+}
+
+.box3{
+    margin: 0.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.pagehead {
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5vw;
+    opacity: 0.8;
+    padding: 15vw;
+    letter-spacing: 2vw;
+    background-color: black;
+    color: white;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+
+@keyframes anime {
+    0% {
+        opacity: 0;
+        text-align: left;
+        color: #000;
+        font-size: 1vw;
+        padding: 5vw;
+    }
+
+    100% {
+        opacity: 0.7;
+        text-align: center;
+        color: #fff;
+        padding: 15vw;
+        font-size: 3vw;
+    }
+}
+.btn {
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}

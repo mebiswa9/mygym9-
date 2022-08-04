@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital@1&family=Play&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.car {
+    margin: 0;
+}
+.slide {
+    margin: auto;
+    position: relative;
+}
+.section{
+    margin: 1vw;
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+.item {
+    display: none;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+    perspective: 1000px
+}
+.item.active {
+    display: block
+}
+.slide-img {
+    display: block;
+    width: 98vw;
+    height: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p {
+    text-align: center;
+    padding: 1vw 2vw;
+}
+
+.h1,.h2,.h4{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1vw;
+}
+.h1,.h2,.h3,.h4{
+    text-align: center;
+    margin: 1vw;
+}
+.h1 {
+    letter-spacing: 0.2vw;
+    font-family: 'Play', sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: 0.8vw;
+    color: white;
+}
+.h2 {
+    margin: 3vw;
+    color: #853434;
+    font-family: 'Play', sans-serif;
+    font-size: 1.6vw;
+    text-decoration: none;
+    letter-spacing: 0.5vw;
+}
+.slide2 {
+    position: relative;
+}
+
+.inner2 {
+    position: relative;
+    width: 25%;
+}
+
+.item2 {
+    margin: auto;
+    display: none;
+    position: relative;
+    align-items: center;
+    width: 25%;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+    perspective: 1000px
+}
+.box3 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+.box7 {
+    font-family: 'Play', sans-serif;
+    background-color: #4d0808;
+    color: #fff00f;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: #d69b9b;
+}
+.slide-img2 {
+    display: block;
+    width: 25vw;
+}
+.slide-img3 {
+    display: block;
+    width: 30vw;
+}
+.title2 {
+    font-size: 1.6vw;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+    margin: 1vw;
+}
+
+.member{
+    background-color: orangered;
+    padding:2vw ;
+    margin: 1vw;
+}
+.title3 {
+    letter-spacing: 2vw;
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 0.5vw;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    color: #fff;
+}
+.d-flex {
+    display: flex;
+    padding: 1vw;
+    margin: 1vw;
+    justify-content: center;
+}
+.card {
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+    border: 2px solid #ff0606;
+    background-color: #ffffff;
+}
+
+.ul {
+    padding: 1vw;
+    list-style: square;
+    text-align: start;
+    text-transform: capitalize;
+    font-size: 1vw;
+    color: #010000;
+}
+
+.ul li {
+    margin: 0.2vw;
+    font-size: 1.2vw;
+}
+li::marker{
+    color: #ff0606;
+}
+.h3{
+    text-transform: capitalize;
+    font-size: 1.7vw;
+    color: #ff0606;
+}
+.h4{
+    font-size: 1.2vw;
+}
+.title4{
+    font-size: 2.5vw;
+}
+.btn {
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 1.2;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+
+.btn1 {
+    padding: 0.8vw 0.5vw;
+    background-color: #9e0942;
+    color: #ffffff;
+    box-shadow: 0 0.1vw 0 0 #811019;
+}
+
+.btn1:focus,
+.btn1.focus,
+.btn1:hover,
+.btn1.hover {
+    color: #000;
+    background-color: #c5b7bc;
+    box-shadow: 0 0.3vw 0.2vw 0.1vw #811019;
+}
+.image {
+    position: relative;
+    background-color: #fff;
+    width: 30vw;
+    margin: 1vw;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.image .img-box::before {
+    content: "";
+    top: 10%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    transition: all 0.5s;
+    z-index: 0;
+    opacity: 0;
+}
+
+.image:hover .img-box {
+    opacity: 1;
+}
+
+.image:hover .all {
+    opacity: 1;
+    top: 5%;
+}
+
+.image:hover .img-box::before {
+    top: 0;
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+.box5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.all {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    opacity: 0;
+    transition: all 0.7s;
+    -webkit-text-stroke: 0.05vw;
+}
+
+.img-text {
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.hide {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2vw;
+    margin-top: 0.3vw;
+    transition: all 0.4s;
+}
